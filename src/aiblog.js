@@ -98,7 +98,7 @@ export default function AIBlogCreator() {
     setVideoUrl("");
 
     try {
-      const response = await fetch("http://172.20.10.5:5000/generate_blog", {
+      const response = await fetch("http://127.0.0.1:5000/generate_blog", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ topic: blogTitle, language, blog_type: contentType }),
