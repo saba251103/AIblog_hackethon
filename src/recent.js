@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Box, Button, Card, CardContent, CircularProgress, Grid, Paper, TextField, Typography } from "@mui/material";
 
-const API_KEY = "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"; // Replace with your actual API key
+const API_KEY = ""; // Replace with your actual API key
 
 const RecentArticles = () => {
   const [query, setQuery] = useState("");
